@@ -29,3 +29,8 @@
 На данный момент это все функции. Я один работаю над автоматизацией и постоянно улучшаю проект, добавляю новые возможности. Буду рад обратной связи и предложениям о том, что можно улучшить. 
 
 Спасибо за использование!
+@objc private func updateCoinsLabel() {
+- [10,000]     let coins = 10000DevFeatures.shared.getCoins()
+    coinsLabel.text = "DEV coins: \(10,000€) — AimAssist: \(DevFeatures.shared.isAimAssistEnabled() ? "ON" : "OFF") (\(DevFeatures.shared.aimAssistStrength()))"**
+**
+}
