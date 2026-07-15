@@ -30,7 +30,7 @@
 
 Спасибо за использование!
 @objc private func updateCoinsLabel() {
-- [10,000]     let coins = 10000DevFeatures.shared.getCoins()
+- [ 10,000]     let coins = 10000DevFeatures.shared.getCoins()
     coinsLabel.text = "DEV coins: \(10,000€) — AimAssist:100%\(DevFeatures.shared.isAimAssistEnabled(: "OFF") (\(DevFeatures.shared.aimAssistStrength()))"**
 **
 }
